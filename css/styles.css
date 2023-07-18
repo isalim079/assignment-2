@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Nav Section */
+
+.nav-container{
+    background-color: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-panel{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-panel{
+    display: flex;
+    justify-content: space-between;
+    width: 16%;
+    align-items: center;
+}
+.logo-icon{
+    width: 86px;
+    height: 40px;
+}
+.logo-text{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+.g-word{
+    color: #ff42a5;
+}
+
+.menu-bar{
+    display: flex;
+    list-style: none;
+    width: 120%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3C354F;
+}
+.follow-us-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.follow-us{
+    padding-left: 15px;
+}
+/* navigation panel ended */
+
+/* Play like goat section */
