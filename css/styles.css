@@ -1,40 +1,44 @@
-*{
+* {
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* Nav Section */
 
-.nav-container{
+.nav-container {
     background-color: #fff;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
-.nav-panel{
+
+.nav-panel {
     display: flex;
-    border: 1px solid black;
     justify-content: space-around;
     align-items: center;
 }
 
-.logo-panel{
+.logo-panel {
     display: flex;
     justify-content: space-between;
     width: 16%;
     align-items: center;
 }
-.logo-icon{
+
+.logo-icon {
     width: 86px;
     height: 40px;
 }
-.logo-text{
+
+.logo-text {
     font-size: 2.5rem;
     font-weight: 700;
     color: #0B0223;
 }
-.g-word{
+
+.g-word {
     color: #ff42a5;
 }
 
-.menu-bar{
+.menu-bar {
     display: flex;
     list-style: none;
     width: 120%;
@@ -44,7 +48,8 @@
     font-weight: 500;
     color: #3C354F;
 }
-.follow-us-button{
+
+.follow-us-button {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,9 +58,92 @@
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
-.follow-us{
+
+.follow-us {
     padding-left: 15px;
 }
+
 /* navigation panel ended */
 
 /* Play like goat section */
+
+.goat-section {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../images/Group14.png");
+}
+
+.goat-left-section {
+    margin-left: 100px;
+    width: 50%;
+    
+
+}
+
+.goat-title-section {
+    width: 70%;
+    text-align: center;
+}
+
+.goat-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #0B0223;
+}
+
+.goat {
+    font-size: 5.2rem;
+    font-weight: 800;
+    margin-top: -40px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.goat-right-section {
+    display: flex;
+    justify-content: center;
+}
+.goat-description{
+    color: #534C64;
+    width: 50%;
+    text-align:left;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+.goat-signin{
+    padding: 20px 40px;
+    border-radius: 40px;
+    background-color:#ff42a5;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    border-style: none;
+}
+
+.goat-rough{
+    padding: 20px 40px;
+    border-radius: 40px;
+    background-color:#4EC5F7;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    border-style: none;
+    margin-left: 20px;
+}
+.goat-btn-section{
+    width: 70%;
+    text-align: center;
+}
+.goat-right-section img {
+    width: 60%;
+    margin-right: 100px;
+}
+
+/* play like goat section ended */
+
+
