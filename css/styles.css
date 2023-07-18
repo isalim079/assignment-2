@@ -104,41 +104,45 @@
     display: flex;
     justify-content: center;
 }
-.goat-description{
+
+.goat-description {
     color: #534C64;
     width: 50%;
-    text-align:left;
+    text-align: left;
     font-size: 1.15rem;
     font-weight: 500;
     margin-left: 55px;
     margin-top: -50px;
     margin-bottom: 20px;
 }
-.goat-signin{
+
+.goat-signin {
     padding: 20px 40px;
     border-radius: 40px;
-    background-color:#ff42a5;
+    background-color: #ff42a5;
     font-size: 1rem;
     font-weight: 600;
     color: #fff;
     border-style: none;
 }
 
-.goat-rough{
+.goat-rough {
     padding: 20px 40px;
     border-radius: 40px;
-    background-color:#4EC5F7;
+    background-color: #4EC5F7;
     font-size: 1rem;
     font-weight: 600;
     color: #fff;
     border-style: none;
     margin-left: 20px;
 }
-.goat-btn-section{
+
+.goat-btn-section {
     width: 70%;
     text-align: center;
     margin-left: 20px;
 }
+
 .goat-right-section img {
     width: 60%;
     margin-right: 100px;
@@ -146,54 +150,61 @@
 
 /* play like goat section ended */
 
-.funny-image-container{
+.funny-image-container {
     display: flex;
     justify-content: space-around;
 }
-.funny-img-description{
+
+.funny-img-description {
     color: #534C64;
     font-weight: 500;
     font-size: 0.9rem;
 }
+
 .funny-img-1,
 .funny-img-2,
 .funny-img-3,
-.funny-img-4
-{
+.funny-img-4 {
     position: relative;
     display: flex;
     flex-direction: column;
     text-align: left;
     width: 20%;
 }
-.funny-image-container{
+
+.funny-image-container {
     padding: 50px 200px 20px 200px;
 }
-.funny-videos-description{
+
+.funny-videos-description {
     text-align: center;
     margin-bottom: -10px;
     margin-top: 50px;
 }
-.funny-title{
+
+.funny-title {
     color: #0B0223;
     font-size: 2.5rem;
     font-weight: 700;
 }
-.funny-color{
+
+.funny-color {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.funny-description{
+
+.funny-description {
     color: #534C64;
     font-size: 1rem;
     font-weight: 400;
     margin-top: -30px;
 }
-/* Play Button Hover */
 
-.funny-btn-hover{
+/* funny image ended */
+
+.funny-btn-hover {
     position: absolute;
     top: 0;
     left: 0;
@@ -210,12 +221,117 @@
     cursor: pointer;
     opacity: 0;
 }
-.funny-watch{
+
+.funny-watch {
     font-weight: 600;
     margin-top: 1px;
     color: #ff42a5;
 }
-.funny-btn-hover:hover{
+
+.funny-btn-hover:hover {
     opacity: 1;
     transition: 0.5s;
 }
+
+/* Play Button Hover */
+
+.play-instantly-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.play-instantly-text{
+    margin-bottom: 300px;
+}
+
+.play-instantly-title {
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: right;
+}
+
+.play-instantly-title-color {
+    color: #ff42a5;
+}
+
+.play-instantly-description {
+    width: 350px;
+    color: #534C64;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.instantly-img-big img{
+    width: 80%;
+}
+.instantly-img-small img{
+    position: relative;
+    bottom: 240px;
+    right: 150px;
+    width: 40%;
+}
+.play-instantly-container{
+    padding: 80px 0px;
+}
+/* play instantly section ended */
+
+.first-five p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+.first-five{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first-five img{
+    margin-right: 15px;
+    width: 25%;
+}
+.second-four p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+.second-four{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 80px;
+}
+.second-four img{
+    margin-right: 15px;
+    width: 20%;
+}
+.game-genre-container{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 120px 150px;
+    margin-top: -200px;
+}
+.second-four p:hover{
+    cursor: pointer;
+    border: 3px solid #ff42a5;
+    color: #ff42a5;
+    transition: 0.2s;
+}
+.first-five p:hover{
+    cursor: pointer;
+    border: 3px solid #ff42a5;
+    color: #ff42a5;
+    transition: 0.2s;
+}
+/* game genre section ended */
+
