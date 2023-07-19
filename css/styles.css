@@ -335,3 +335,59 @@
 }
 /* game genre section ended */
 
+.footer-container{
+    background-color: #0B0223;
+    padding: 100px 300px;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our-story-list{
+    display: flex;
+    list-style: none;
+}
+.our-story-list li{
+    margin-right: 60px;
+    color: #fff;
+    font-weight: 600;
+
+}
+.footer-logo{
+    color: #fff;
+}
+.footer-section > .logo-panel > img{
+    margin-right: 20px;
+}
+.social-media-btn{
+    background-color: #0B0223;
+    border-style: none;
+    
+}
+.social-media-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media-container > button > a{
+    margin-right: 30px;
+}
+.condition-list{
+    color: rgba(255, 255, 255, 0.60);
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.condition-list li{
+    margin-right: 70px;
+}
+.caption{
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    margin-top: 20px;
+}
