@@ -1,0 +1,170 @@
+@media screen and (max-width: 576px) {
+    .nav-panel {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .nav-container {
+        width: 160vw;
+    }
+
+    .menu-bar {
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+        padding-bottom: 10px;
+    }
+
+    .goat-section {
+        flex-direction: column-reverse;
+        width: 160vw;
+        padding: 0;
+        justify-content: center;
+
+    }
+
+    .goat-right-section img {
+        width: 60%;
+        margin-right: -50px;
+    }
+
+    .goat-description {
+        width: 60%;
+    }
+    .goat-signin {
+        padding: 10px 20px;
+    }
+    .goat-rough {
+        padding: 10px 20px;
+    }
+    .goat-left-section {
+        margin-left: 100px;
+        width: 100%;
+    }
+
+    .funny-title {
+        font-size: 2rem;
+        width: 140vw;
+    }
+
+    .funny-videos-description {
+
+        width: 140vw;
+    }
+
+    .funny-image-container {
+        flex-direction: column;
+        width: 140vw;
+    }
+    .funny-image-container{
+        padding: 50px 30px 50px 70px;
+    }
+
+    .funny-img-1,
+    .funny-img-2,
+    .funny-img-3,
+    .funny-img-4 {
+        width: 300px;   
+    }
+    .funny-btn-hover{
+        height: 350px;
+    }
+    .play-instantly-section{
+        flex-direction: column;
+        width: 140vw;
+        margin-top: -50px;
+    }
+    .play-instantly-text{
+        margin-bottom: 50px;
+    }
+    .play-instantly-title {
+        text-align: center;
+    }
+    .play-instantly-description{
+        text-align: center;
+        width: 400px;
+    }
+    .instantly-img-big img{
+        width: 60%;
+        margin-left: 110px;
+    }
+    .instantly-img-small img{
+        position: relative;
+        bottom: 120px;
+        right: 160px;
+        width: 30%;
+        margin-left: 200px;
+    }
+    .play-instantly-container{
+        padding: 20px 0px;
+        width: 140vw;
+    }
+    .first-five p{
+        font-size: 10px;
+        padding: 10px 0px;
+        border-radius: 50px;
+        margin-right: 0px;
+    }
+    .first-five{
+        flex-wrap: wrap;
+        width: 140vw;
+        margin-left: -150px;
+    }
+    .first-five img{
+        margin-right: 10px;
+        width: 15%;
+        
+    }
+    .second-four p{
+        font-size: 10px;
+        padding: 10px 0px;
+        border-radius: 50px;
+        margin-right: -10px;
+        
+    }
+    .second-four{
+        flex-wrap: wrap;
+        width: 140vw;
+        margin-left: -150px;
+        padding: 0px;
+    }
+    .second-four img{
+        margin-right: 10px;
+        width: 15%;
+    }
+    .game-genre-container{
+        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+        padding: 120px 150px;
+        margin-top: -200px;
+        width: 140vw;
+    }
+    .our-story-list{
+        flex-wrap: wrap;
+        width: 120vw;
+        justify-content: center;
+        line-height: 40px;
+
+    }
+    .footer-section >.logo-panel{
+        width: 40vw;
+        margin-left: -80px;
+    }
+    .social-media-container{
+        flex-wrap: wrap;
+        width: 70vw;
+    }
+    .condition-list{
+
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100vw;
+        line-height: 40px;
+    }
+    .caption{
+        display: flex;
+        line-height: 30px;
+        justify-content: center;
+        width: 50vw;
+    }
+}
