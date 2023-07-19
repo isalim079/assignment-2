@@ -273,66 +273,52 @@
 }
 .play-instantly-container{
     padding: 80px 0px;
+    margin-bottom: -330px;
 }
 /* play instantly section ended */
 
-.first-five p{
+.games-genre-container{
+    width: 80vw;
+    margin:0 auto;
+}
+.game-bg{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
-    font-weight: 600;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 50px;
-    margin-right: 30px;
-}
-.first-five{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.first-five img{
-    margin-right: 15px;
-    width: 25%;
-}
-.second-four p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    font-weight: 600;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 50px;
-}
-.second-four{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0px 80px;
-}
-.second-four img{
-    margin-right: 15px;
-    width: 20%;
-}
-.game-genre-container{
+    padding-top: 200px;
+    height: 60vh;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    padding: 120px 150px;
-    margin-top: -200px;
 }
-.second-four p:hover{
+.game-genre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+    margin-bottom: 150px;
+}
+.game-btn{
+    background-color: #fff;
+    border-style: none;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 50px;
+}
+.game-genre img{
+    margin-right: 15px;
+    width: 42px;
+}
+
+.game-btn:hover{
     cursor: pointer;
     border: 3px solid #ff42a5;
     color: #ff42a5;
     transition: 0.2s;
 }
-.first-five p:hover{
-    cursor: pointer;
-    border: 3px solid #ff42a5;
-    color: #ff42a5;
-    transition: 0.2s;
-}
+
 /* game genre section ended */
 
 .footer-container{
